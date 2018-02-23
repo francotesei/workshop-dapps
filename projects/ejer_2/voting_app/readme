@@ -1,0 +1,2 @@
+cd voting_app
+truffle unbox webpack
