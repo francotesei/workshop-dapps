@@ -45,4 +45,4 @@ RUN node -v
 RUN npm -v
 
 # install JS dependencies
-RUN npm install -g truffle ganache-cli solc
+RUN npm install -g truffle ganache-cli solc webpack

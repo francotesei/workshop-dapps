@@ -1,7 +1,7 @@
+pragma solidity ^0.4.18;
 contract Counter {
    uint counter;
-   function Counter() {
-       counter = 1;
+   function Counter() public {
+       counter = counter +1;
    }
 }
-
