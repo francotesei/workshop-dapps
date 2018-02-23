@@ -2,7 +2,7 @@
 # https://hub.docker.com/_/debian/
 FROM ubuntu:16.04
 
-RUN mkdir project
+RUN mkdir projects
 
 # replace shell with bash so we can source files
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
